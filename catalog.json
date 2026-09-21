@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "packages": [
+    {
+      "id": "bct.dc.parallel",
+      "title": "Paralel devrede akım",
+      "version": "1.0.0",
+      "revision": 1,
+      "capability": "dc-resistive/1",
+      "bytes": 789,
+      "sha256": "5dac8e670ece24d799a0209a2cf83c23abb5571904c94bae0f4ac586535ff6d0",
+      "file": "5dac8e670ece24d799a0209a2cf83c23abb5571904c94bae0f4ac586535ff6d0.json"
+    },
+    {
+      "id": "bct.dc.series",
+      "title": "Seri devrede gerilim",
+      "version": "1.0.0",
+      "revision": 1,
+      "capability": "dc-resistive/1",
+      "bytes": 734,
+      "sha256": "1d628b92b8910d038350316d1500111a72669e46338709189c106908881d16bd",
+      "file": "1d628b92b8910d038350316d1500111a72669e46338709189c106908881d16bd.json"
+    },
+    {
+      "id": "bct.pendulum.planets",
+      "title": "Gezegenlerde sarkaç",
+      "version": "1.0.0",
+      "revision": 1,
+      "capability": "preset/pendulum",
+      "bytes": 940,
+      "sha256": "04a1fc5a83720b0fcbc0cef1f8beb40c4ee5e5775ee52a1b55671d6189884c59",
+      "file": "04a1fc5a83720b0fcbc0cef1f8beb40c4ee5e5775ee52a1b55671d6189884c59.json"
+    }
+  ]
+}

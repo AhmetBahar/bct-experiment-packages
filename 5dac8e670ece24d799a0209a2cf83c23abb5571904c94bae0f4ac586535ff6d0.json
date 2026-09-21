@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "id": "bct.dc.parallel",
+  "title": "Paralel devrede akım",
+  "version": "1.0.0",
+  "revision": 1,
+  "capability": "dc-resistive/1",
+  "instructions": "12 V kaynağa 100 ve 200 ohm dirençleri paralel bağladık. Kollardan 0,12 ve 0,06 A geçer; kaynak 0,18 A sağlar. Aynı düğümlere bağlı elemanların çizgileri üst üste gelir; Sonraki eleman düğmesiyle her kolun değerini ayrı incele. Bir direnci artırdığında diğer koldaki akım ne olur? Akım işareti elemanın a ucundan b ucuna göre verilir.",
+  "circuit": {
+    "nodes": 2,
+    "components": [
+      {"id":"V1","kind":"voltage","a":1,"b":0,"value":12},
+      {"id":"R1","kind":"resistor","a":1,"b":0,"value":100},
+      {"id":"R2","kind":"resistor","a":1,"b":0,"value":200}
+    ]
+  }
+}

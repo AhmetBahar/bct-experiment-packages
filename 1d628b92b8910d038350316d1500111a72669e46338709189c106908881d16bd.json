@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "id": "bct.dc.series",
+  "title": "Seri devrede gerilim",
+  "version": "1.0.0",
+  "revision": 1,
+  "capability": "dc-resistive/1",
+  "instructions": "12 V kaynak ile 100 ve 200 ohm dirençleri seri bağladık. Beklenen akım 0,04 A, 2 numaralı düğümün gerilimi 8 V olur. Sonraki eleman ile direnci seç; + ve - ile değiştir. Akım ve gerilim bölüşümü nasıl değişiyor? İdeal DC modelidir; ısınma, tel direnci ve gerçek pil iç direnci içermez.",
+  "circuit": {
+    "nodes": 3,
+    "components": [
+      {"id":"V1","kind":"voltage","a":1,"b":0,"value":12},
+      {"id":"R1","kind":"resistor","a":1,"b":2,"value":100},
+      {"id":"R2","kind":"resistor","a":2,"b":0,"value":200}
+    ]
+  }
+}

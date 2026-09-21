@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "id": "bct.pendulum.planets",
+  "title": "Gezegenlerde sarkaç",
+  "version": "1.0.0",
+  "revision": 1,
+  "capability": "preset/pendulum",
+  "instructions": "Aynı uzunluktaki sarkacı Dünya, Ay ve Mars üzerinde karşılaştır. Deneyi açıp Hazır senaryo düğmesiyle gezegeni seç. Ölçülen periyodu kaydet. Yerçekimi azaldığında salınım neden yavaşlıyor? Uzunluğu ve bırakma açısını aynı tutarak adil bir karşılaştırma yap.",
+  "experiment": {
+    "schemaVersion": 1,
+    "id": "bct.pendulum.planets",
+    "title": "Gezegenlerde sarkaç",
+    "tabLabel": "Sarkaç",
+    "version": "1.0.0",
+    "model": "pendulum",
+    "presets": [
+      {"name":"Dünya: 3 m sarkaç","length":3,"pendulumAngle":15,"gravity":9.81},
+      {"name":"Ay: 3 m sarkaç","length":3,"pendulumAngle":15,"gravity":1.62},
+      {"name":"Mars: 3 m sarkaç","length":3,"pendulumAngle":15,"gravity":3.71}
+    ]
+  }
+}
