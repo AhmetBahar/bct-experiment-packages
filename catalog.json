@@ -2,6 +2,36 @@
   "schemaVersion": 2,
   "packages": [
     {
+      "id": "bct.balance.seesaw",
+      "title": "Tahterevalli dengesi",
+      "version": "1.0.0",
+      "revision": 1,
+      "capability": "balance-torque/1",
+      "bytes": 772,
+      "sha256": "9295c5e4bc418ec3c2e7155ea12291f7aeff52c345b86def66b1a5d12db83394",
+      "file": "9295c5e4bc418ec3c2e7155ea12291f7aeff52c345b86def66b1a5d12db83394.json"
+    },
+    {
+      "id": "bct.buoyancy.wood",
+      "title": "Yüzer mi, batar mı?",
+      "version": "1.0.0",
+      "revision": 1,
+      "capability": "buoyancy/1",
+      "bytes": 725,
+      "sha256": "c6f20665364c3d7ed75656468f73c1184049916bc081d866f2d1081c51cd41a9",
+      "file": "c6f20665364c3d7ed75656468f73c1184049916bc081d866f2d1081c51cd41a9.json"
+    },
+    {
+      "id": "bct.collision.carts",
+      "title": "Çarpışan arabalar",
+      "version": "1.0.0",
+      "revision": 1,
+      "capability": "collision-1d/1",
+      "bytes": 816,
+      "sha256": "9a03c328e4ca854d3526a7499f9a6a2f4db914d57eee3e29a75bc5267ed70577",
+      "file": "9a03c328e4ca854d3526a7499f9a6a2f4db914d57eee3e29a75bc5267ed70577.json"
+    },
+    {
       "id": "bct.dc.parallel",
       "title": "Paralel devrede akım",
       "version": "1.0.0",
@@ -30,6 +60,16 @@
       "bytes": 940,
       "sha256": "04a1fc5a83720b0fcbc0cef1f8beb40c4ee5e5775ee52a1b55671d6189884c59",
       "file": "04a1fc5a83720b0fcbc0cef1f8beb40c4ee5e5775ee52a1b55671d6189884c59.json"
+    },
+    {
+      "id": "bct.spring.hooke",
+      "title": "Yay: Hooke ve salınım",
+      "version": "1.0.0",
+      "revision": 1,
+      "capability": "spring-oscillator/1",
+      "bytes": 766,
+      "sha256": "ee45f3390cdf3121e5410c7ddf4f8eac393eb772403ceb7cd3a4bde78c734ffb",
+      "file": "ee45f3390cdf3121e5410c7ddf4f8eac393eb772403ceb7cd3a4bde78c734ffb.json"
     }
   ]
 }

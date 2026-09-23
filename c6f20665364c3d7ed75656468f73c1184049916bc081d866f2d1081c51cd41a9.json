@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "id": "bct.buoyancy.wood",
+  "title": "Yüzer mi, batar mı?",
+  "version": "1.0.0",
+  "revision": 1,
+  "capability": "buoyancy/1",
+  "instructions": "0,6 kg ve 1 litre hacimli tahta blok suda yüzer: özkütlesi 600 kg/m³ olduğundan hacminin %60'ı batar ve kaldırma kuvveti ağırlığa eşitlenir. Kütleyi artırarak bloğu batır; görünür ağırlık neden ağırlıktan küçük? Sıvı özkütlesini 13.600 kg/m³ (cıva) yap: demir bile yüzer. Hacmi değiştirmeden kütleyi iki katına çıkarınca batık oran nasıl değişir? Model durgun sıvı ve homojen cisim varsayar.",
+  "buoyancy": {
+    "mass": 0.6,
+    "volume": 0.001,
+    "fluidDensity": 1000,
+    "gravity": 9.81
+  }
+}

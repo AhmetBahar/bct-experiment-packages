@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "id": "bct.balance.seesaw",
+  "title": "Tahterevalli dengesi",
+  "version": "1.0.0",
+  "revision": 1,
+  "capability": "balance-torque/1",
+  "instructions": "4 m çubuk ortasından desteklenmiş. Sol yükün torku ile sağ yükün torku eşit olduğunda çubuk dengede kalır: 3 kg × 1 m = 1,5 kg × 2 m. Sağdaki yükü pivota yaklaştır: hangi taraf ağır basar? Bir yükün kütlesini artırıp konumunu değiştirerek dengeyi yeniden kur. Küçük yükü pivotun sol tarafına taşırsan ne olur? Tork, kütle × g × pivota uzaklık ile hesaplanır.",
+  "balance": {
+    "length": 4,
+    "pivot": 2,
+    "gravity": 9.81,
+    "loads": [
+      {"id": "A", "mass": 3, "position": 1},
+      {"id": "B", "mass": 1.5, "position": 4}
+    ]
+  }
+}

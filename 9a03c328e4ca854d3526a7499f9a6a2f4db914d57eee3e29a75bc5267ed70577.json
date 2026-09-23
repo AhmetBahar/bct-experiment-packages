@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "id": "bct.collision.carts",
+  "title": "Çarpışan arabalar",
+  "version": "1.0.0",
+  "revision": 1,
+  "capability": "collision-1d/1",
+  "instructions": "10 m rayda 2 kg araba 3 m/s ile duran 1 kg arabaya çarpıyor. Başlat'a basmadan önce tahmin et: çarpışmadan sonra hangi araba daha hızlı? Esneklik katsayısı e = 1 iken kinetik enerji korunur; e = 0 iken arabalar birlikte hareket eder. Toplam momentum her durumda korunur mu? Kütleleri eşitleyip e = 1 yaparsan hızların yer değiştirdiğini gör. Ray uçları esnek duvardır; sürtünme yoktur.",
+  "collision": {
+    "track": 10,
+    "restitution": 1,
+    "walls": true,
+    "bodies": [
+      {"id": "A", "mass": 2, "position": 2, "velocity": 3},
+      {"id": "B", "mass": 1, "position": 6, "velocity": 0}
+    ]
+  }
+}

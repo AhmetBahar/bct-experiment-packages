@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "id": "bct.spring.hooke",
+  "title": "Yay: Hooke ve salınım",
+  "version": "1.0.0",
+  "revision": 1,
+  "capability": "spring-oscillator/1",
+  "instructions": "1 kg kütle, k = 40 N/m yaya asılı ve dengeden 25 cm çekilmiş. Başlat ile bırak; ölçülen periyodu 2π√(m/k) = 0,993 s ile karşılaştır. Kütleyi 4 kg yapınca periyot neden iki katına çıkar? Sönüm katsayısını artır: genlik azalırken periyot ne kadar değişiyor? Sönümü 13'e yaklaştırınca (kritik sönüm) salınım kaybolur. Model ideal yay ve noktasal kütledir; hava direnci yoktur.",
+  "spring": {
+    "mass": 1,
+    "stiffness": 40,
+    "damping": 0,
+    "displacement": 0.25,
+    "velocity": 0,
+    "gravity": 9.81,
+    "vertical": true
+  }
+}
