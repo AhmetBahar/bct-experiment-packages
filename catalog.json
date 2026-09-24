@@ -22,6 +22,16 @@
       "file": "c6f20665364c3d7ed75656468f73c1184049916bc081d866f2d1081c51cd41a9.json"
     },
     {
+      "id": "bct.chem.dilution",
+      "title": "Çözelti: derişim ve seyreltme",
+      "version": "1.0.0",
+      "revision": 1,
+      "capability": "solution-concentration/1",
+      "bytes": 825,
+      "sha256": "a91a944e025ec07e33f491671d7624338784e82be6f838d92484201bc9aa55a0",
+      "file": "a91a944e025ec07e33f491671d7624338784e82be6f838d92484201bc9aa55a0.json"
+    },
+    {
       "id": "bct.collision.carts",
       "title": "Çarpışan arabalar",
       "version": "1.0.0",
@@ -50,6 +60,16 @@
       "bytes": 734,
       "sha256": "1d628b92b8910d038350316d1500111a72669e46338709189c106908881d16bd",
       "file": "1d628b92b8910d038350316d1500111a72669e46338709189c106908881d16bd.json"
+    },
+    {
+      "id": "bct.math.vectors",
+      "title": "Vektör toplama",
+      "version": "1.0.0",
+      "revision": 1,
+      "capability": "vector-sum/1",
+      "bytes": 744,
+      "sha256": "a17eae7ad22ff7bcbd11bf7166b56bc0c5676f5e02638fea4a18142870294cd9",
+      "file": "a17eae7ad22ff7bcbd11bf7166b56bc0c5676f5e02638fea4a18142870294cd9.json"
     },
     {
       "id": "bct.pendulum.planets",

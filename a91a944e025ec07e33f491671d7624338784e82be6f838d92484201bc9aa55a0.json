@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "id": "bct.chem.dilution",
+  "title": "Çözelti: derişim ve seyreltme",
+  "version": "1.0.0",
+  "revision": 1,
+  "capability": "solution-concentration/1",
+  "instructions": "0,5 L suda 0,2 mol bakır(II) sülfat çözülmüş: derişim 0,4 mol/L. Hacmi 2 L'ye çıkararak seyrelt; mol sayısı değişmez, derişim neden dörtte birine iner (c1·V1 = c2·V2)? Renk açılıyor mu? Şimdi çözünen maddeyi artır: doygunluğa ulaşınca fazlası dibe çöker. Su ekleyerek çökeltiyi yeniden çözebilir misin? Model sabit sıcaklıkta ideal çözeltidir; çözünürlük yaklaşık değerdir.",
+  "solution": {
+    "solute": "Bakır(II) sülfat",
+    "formula": "CuSO4",
+    "molarMass": 159.6,
+    "solubility": 1.4,
+    "color": [0.08, 0.42, 0.92],
+    "amount": 0.2,
+    "volume": 0.5
+  }
+}

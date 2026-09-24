@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "id": "bct.math.vectors",
+  "title": "Vektör toplama",
+  "version": "1.0.0",
+  "revision": 1,
+  "capability": "vector-sum/1",
+  "instructions": "A vektörü 4 birim doğuya, B vektörü 3 birim kuzeye bakıyor. Uç uca eklediğinde bileşke R'nin boyu neden 7 değil de 5? R'nin bileşenleri A ve B'nin bileşenlerinin toplamıdır. B'nin açısını 180°'ye getirip boyunu 4 yap: vektörler birbirini yok eder. İki vektör aynı yöne baktığında |R| = |A| + |B| olur; diğer tüm durumlarda daha küçüktür. Açılar +x ekseninden saat yönünün tersine ölçülür.",
+  "vectors": {
+    "a": {"magnitude": 4, "angle": 0},
+    "b": {"magnitude": 3, "angle": 90},
+    "operation": "sum",
+    "grid": 10
+  }
+}
