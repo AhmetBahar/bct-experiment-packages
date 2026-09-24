@@ -64,12 +64,12 @@
     {
       "id": "bct.math.vectors",
       "title": "Vektör toplama",
-      "version": "1.0.0",
-      "revision": 2,
+      "version": "1.0.1",
+      "revision": 3,
       "capability": "vector-sum/1",
       "bytes": 743,
-      "sha256": "071a0ac24e0a21abc5757dcda5608f3f9effc83e4f47fcdf77a1f19a5eaf2cba",
-      "file": "071a0ac24e0a21abc5757dcda5608f3f9effc83e4f47fcdf77a1f19a5eaf2cba.json"
+      "sha256": "8b80c4db9474df88667ae53a5eb217db7e0b58cdcac16585814f1e32548d09bd",
+      "file": "8b80c4db9474df88667ae53a5eb217db7e0b58cdcac16585814f1e32548d09bd.json"
     },
     {
       "id": "bct.pendulum.planets",
