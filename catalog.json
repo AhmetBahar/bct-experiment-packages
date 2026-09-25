@@ -62,6 +62,16 @@
       "file": "1d628b92b8910d038350316d1500111a72669e46338709189c106908881d16bd.json"
     },
     {
+      "id": "bct.forces.incline",
+      "title": "Eğik düzlemde kayma",
+      "version": "1.0.0",
+      "revision": 1,
+      "capability": "incline-plane/1",
+      "bytes": 818,
+      "sha256": "824411c91a9e04c721ef2ecee7b4cc7b78a8db476f72aecda81b40e87b1c1f0c",
+      "file": "824411c91a9e04c721ef2ecee7b4cc7b78a8db476f72aecda81b40e87b1c1f0c.json"
+    },
+    {
       "id": "bct.math.vectors",
       "title": "Vektör toplama",
       "version": "1.0.1",

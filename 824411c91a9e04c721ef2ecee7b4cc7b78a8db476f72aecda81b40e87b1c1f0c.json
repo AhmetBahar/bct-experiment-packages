@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "id": "bct.forces.incline",
+  "title": "Eğik düzlemde kayma",
+  "version": "1.0.0",
+  "revision": 1,
+  "capability": "incline-plane/1",
+  "instructions": "2 kg blok 4 m uzunluğundaki rampanın tepesinde duruyor; μs = 0,30, μk = 0,20. Açı 15° iken Başlat'a bas: blok neden kıpırdamıyor? Açıyı yavaş yavaş artır; kayma tan θ = μs olduğunda, yaklaşık 16,7°'de başlar. 30°'de ivmeyi g·(sinθ − μk·cosθ) ile karşılaştır. Sürtünmeyi sıfırlayıp bloğu yerinde tutacak kuvveti bul: F = m·g·sinθ. Oklar: siyah ağırlık, mavi normal kuvvet, turuncu sürtünme, yeşil uygulanan kuvvet.",
+  "incline": {
+    "angle": 15,
+    "mass": 2,
+    "staticFriction": 0.3,
+    "kineticFriction": 0.2,
+    "appliedForce": 0,
+    "gravity": 9.81,
+    "length": 4
+  }
+}
